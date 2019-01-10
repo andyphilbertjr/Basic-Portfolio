@@ -1,0 +1,19 @@
+
+header{
+  border-bottom:solid 2px #cccccc;
+  display: flex;
+}
+
+.headings{
+  background-color: #4aaaa5;
+}
+
+.navList{
+  display: inline-flex;
+  list-style: none;
+}
+
+.navList a {
+  padding: 10px;
+  text-decoration: none;
+}
