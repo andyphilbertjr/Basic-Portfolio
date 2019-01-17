@@ -1,19 +1,85 @@
-
+body{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+/* header nav and footer styling for all pages */
 header{
   border-bottom:solid 2px #cccccc;
   display: flex;
+}
+nav{
+  width: 100%;
 }
 
 .headings{
   background-color: #4aaaa5;
 }
 
+.headings > h1{
+  color: #ffffff;
+  font-weight: bold;
+}
+
 .navList{
-  display: inline-flex;
+  display:inline-flex;
+  float: right;
   list-style: none;
 }
 
+.navList li{
+  border-right: solid 2px grey
+}
+
+.navList li:last-of-type{
+  border-right: none;
+}
+
 .navList a {
+  color: grey;
   padding: 10px;
   text-decoration: none;
 }
+.main_content{
+  background-color: #f0f0f0;
+}
+
+footer{
+  background-color: darkgrey;
+}
+/* End of header nav and footer styling for all pages */
+
+/* about page styling */
+#summary{
+  background-color: #ffffff;
+  max-width: 960px; 
+}
+#summary img{
+  float: left;
+}
+
+/* about page styling */
+#contact_form{
+  background-color: #ffffff;
+  max-width: 960px;
+  padding: 20px;
+
+}
+
+#contact_form header{
+  color: #4aaaa5;
+}
+
+#contact_form button{
+  background-color: #4aaaa5;
+  color: #fff;
+  height: 55px;
+  width: 75px;
+}
+
+/* contact page styling */
+
+/* End of contact page styling */
+
+/* Portfolio  page styling */
+
+/* End of Portfolio  page styling */
