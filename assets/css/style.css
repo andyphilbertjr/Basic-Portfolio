@@ -1,16 +1,19 @@
 
 header{
   border-bottom:solid 2px #cccccc;
-  display: flex;
+  height: 100px;
 }
 
 .headings{
   background-color: #4aaaa5;
+  float: left;
+  margin-left: 30px;
 }
 
 .navList{
   display: inline-flex;
   list-style: none;
+  float: right;
 }
 
 .navList a {
